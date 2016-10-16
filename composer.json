@@ -1,0 +1,15 @@
+{
+    "name": "jonasof/array-circle-fetch",
+    "description": "Fetch elements from array in a circle pattern",
+    "keywords": ["array", "geographic"],
+    "license": "MIT",
+    "homepage": "https://github.com/jonasof/array-circle-fetch/",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArrayCircleFetch\\": "src"
+        }
+    }
+}
