@@ -38,6 +38,11 @@ So you specify a point by keys and choice a radius to get. Lets to get the point
 | 16 | 17 | 18    | 19 | 20 |
 | 21 | 22 | 23    | 24 | 25 |
 
+```php
+$circlefetch = new ArrayCircleFetch($array);
+$result = $circlefetch->get(["x" => 3, "y"=> 2], 3);
+```
+
 Will get:
 
 |       |        |        |        |        |
